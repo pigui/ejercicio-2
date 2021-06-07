@@ -44,7 +44,7 @@ const SearchResultItem: React.FC<SearchResultItemProps> = ({
     .replace(re, `<b>${search?.toLowerCase()}</b>`);
 
   return (
-    <div className="is-capitalized search-box-item content" onClick={clickItem}>
+    <div className="is-capitalized search-box-item" onClick={clickItem}>
       <Highlight innerHTML={true}>{str}</Highlight>
     </div>
   );

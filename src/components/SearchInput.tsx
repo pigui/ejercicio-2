@@ -11,8 +11,8 @@ const SearchInput: React.FC = () => {
     search(input);
   };
   return (
-    <div className="columns is-flex-direction-row is-justify-content-center search">
-      <div className="column is-one-quarter">
+    <div className="columns is-mobile is-flex-direction-row is-justify-content-center search">
+      <div className="column  is-three-quarters-mobile is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd">
         <input
           ref={inputRef}
           className="input"

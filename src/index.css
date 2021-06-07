@@ -21,4 +21,10 @@
   align-items: center;
   padding-left: calc(0.75em - 1px);
   padding-right: calc(0.75em - 1px);
+  padding-top: calc(0.75em - 1px);
+  padding-bottom: calc(0.75em - 1px);
+}
+
+.search-box-item:hover {
+  background-color: #a9cef4;
 }
